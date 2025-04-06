@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 
 import { io } from "socket.io-client";
-const socket = io("http://localhost:3000");
+const socket = io("https://socket-app-1-mdy2.onrender.com/");
 
 function App() {
   const [roomId, setRoomId] = useState("");
